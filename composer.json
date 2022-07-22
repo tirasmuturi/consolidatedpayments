@@ -1,0 +1,19 @@
+{
+    "name": "tirasmuturi/consolidatedpayments",
+    "description": "This is a consolidated package that handles most payment integrations all under one roof.",
+    "authors": [
+        {
+            "name": "Tiras Muturi",
+            "email": "tirasmuturi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Tirasmuturi\\Consolidatedpayments\\": "packages/tirasmuturi/consolidatedpayments/src/"
+        }
+    }
+}
